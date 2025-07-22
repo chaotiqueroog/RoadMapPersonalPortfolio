@@ -1,10 +1,4 @@
 @media (prefers-color-scheme: dark) {
-    h1 {
-        text-align: center;
-    }
-    .title-caption {
-        text-align: center;
-    }
     body {
         margin: 30px 50px 20px 50px;
         font-family: 'Courier New', Courier, monospace;
@@ -12,92 +6,6 @@
         flex-direction: column;
         background-color: black;
         color: white;
-    }
-    .sections, .teacher-reviews {
-        vertical-align: middle;
-        margin: 10px auto 10px auto;
-        width: fit-content;
-        text-align: left;
-        align-items: top;
-        flex-wrap: wrap;
-        border: 2px solid white;
-        background-color: white;
-        height: 100%;
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .projects, .work, .education {
-        margin: 2px;
-        flex: 1 100%;
-        background-color: black;
-        padding: 20px;
-    }
-    .project-li {
-        margin: auto;
-        line-height: 1.4;
-        list-style: none;
-        text-indent: 0%;
-    }
-    .education-li {
-        line-height: 1.9;
-    }
-    p, li, footer {
-        font-size: 13px;
-    }
-    hr {    
-        border: 1px solid black;
-    }
-    .project-divider {
-        margin: 12px auto 12px auto;
-    
-    }
-    .title-review {
-        text-align: center;
-        margin: 30px auto 15px auto;
-    }
-
-
-    .rev {
-    margin: 2px;
-        flex: 1 100%;
-        background-color: black;
-        padding: 20px;
-    }
-        
-    footer {
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    a {
-        color: white;
-    }
-
-    a:hover {
-        color:rgb(184, 184, 184);
-    }
-    @media screen and (min-width:1000px) {
-        .education, .projects, .work {
-            flex:2;
-        }
-    }
-    @media screen and (min-width:600px) {
-        .projects, .work {
-            flex:2;
-        }
-    }
-    @media screen and (min-width:800px) {
-        .rev {
-            flex:2;
-        }
-    }
-    @media screen and (min-width:600px) {
-        .rev1, .rev2 {
-            flex:2;
-        }
-    }
-    .work-divider {
-        margin: 35px auto 35px auto;
     }
 }
 
