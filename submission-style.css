@@ -3,6 +3,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    color: black;
 }
 footer {
     text-align: center;
@@ -49,6 +51,8 @@ a:hover {
         font-family: 'Courier New', Courier, monospace;
         display: flex;
         flex-direction: column;
+        background-color: black;
+        color: white;
     }
     footer {
         text-align: center;
