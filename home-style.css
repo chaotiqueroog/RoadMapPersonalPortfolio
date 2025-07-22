@@ -1,19 +1,4 @@
-@media (prefers-color-scheme: dark){
-    body {
-        background-color:#000000;
-        color: white
-    }
-    a {
-        color: white;
-    }
-    a:hover {
-        color: rgb(199, 199, 199);
-    }
-    .sections, .teacher-reviews {
-        background-color: white;
-    }
 
-}
 h1 {
     text-align: center;
 }
