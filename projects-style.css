@@ -3,6 +3,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    color: black;
 }
 .top-menu, footer {
     font-size: 13px;
@@ -57,6 +59,8 @@ img {
         font-family: 'Courier New', Courier, monospace;
         display: flex;
         flex-direction: column;
+        background-color: black;
+        color: white;
     }
     .top-menu, footer {
         font-size: 13px;
