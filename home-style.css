@@ -20,8 +20,8 @@
         text-align: left;
         align-items: top;
         flex-wrap: wrap;
-        border: 2px solid #white;
-        background-color: #white;
+        border: 2px solid white;
+        background-color: white;
         height: 100%;
         display: flex;
         flex-flow: row wrap;
@@ -29,7 +29,7 @@
     .projects, .work, .education {
         margin: 2px;
         flex: 1 100%;
-        background-color: #black;
+        background-color: black;
         padding: 20px;
     }
     .project-li {
