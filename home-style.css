@@ -98,6 +98,7 @@ h1 {
     .work-divider {
         margin: 35px auto 35px auto;
     }
+
 @media (prefers-color-scheme: light) {
     h1 {
         text-align: center;
