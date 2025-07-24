@@ -1,3 +1,12 @@
+:root {
+    --light-1: rgb(91, 91, 91);
+    --light-2: rgb(251,251,251);
+    --light-3: rgb(192,192,192);
+    --dark-1: rgb(203, 203, 203);
+    --dark-2: rgb(221, 221, 221);
+    --dark-3: rgb(251,251,251);
+    --dark-bg: rgb(37,37,37);
+}
 body {
     margin: 30px 50px 20px 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -6,9 +15,6 @@ body {
     background-color: white;
     color: black;
     
-}
-.top-menu, footer, .send {
-    font-size: 13px;
 }
 footer {
     text-align: center;
@@ -40,7 +46,6 @@ a:hover {
     flex-direction: column;
     border: 2px solid black;
     border-radius: 7px;
-    font-size: 13px;
 
 }
 input:placeholder-shown, textarea:placeholder-shown, .send {
@@ -58,69 +63,132 @@ form {
 }
 .send:hover {
     background-color:rgb(192, 192, 192);
-
 }
-
-@media (prefers-color-scheme: dark) {
-        body {
-        margin: 30px 50px 20px 50px;
-        font-family: 'Courier New', Courier, monospace;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        color: white;
+@media screen and (min-width:600px) and (max-width:600px){
+    .top-menu {
+        font-size: 15px;
     }
-    .top-menu, footer, .send {
-        font-size: 13px;
-    }
-    footer {
-        text-align: center;
-        margin-top: 50px;
+    p, footer, form, .email, .name, .message, .send  {
+        font-size: 14px;
     }
     h2 {
-        text-align: center;
-        margin-top: 30px;
+        font-size: 25px;
     }
-    a {
-        color: white;
+}
+@media screen and (min-width:768px){
+    .top-menu {
+        font-size: 15px;
     }
+    p, footer, form, .email, .name, .message, .send {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:992px){
+    .top-menu {
+        font-size: 15px;
+    }
+    p, footer, form, .email, .name, .message, .send {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
 
-    a:hover {
-        color:rgb(184, 184, 184);
-    }
-    .contact {
-        vertical-align: middle;
-        height: 100%;
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        padding: 10px;
-    }
-    .email, .name, .message, .send {
-        margin: -5px auto 25px auto;
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid white;
-        border-radius: 7px;
-        font-size: 13px;
+/* DARK MODE */
 
-    }
-    input:placeholder-shown, textarea:placeholder-shown, .send {
-        font-family: 'Courier New', Courier, monospace;
-        padding: 10px;
-    }
+@media (prefers-color-scheme: dark) {
+    body {
+    margin: 30px 50px 20px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-bg);
+    color: white;
+    
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+a {
+    color: white;
+}
 
-    form {
-        font-size: 16px;
-    }
-    .send {
-        background-color:rgb(172, 172, 172);
-        margin-top: 30px;
-        width: 100%;
-    }
-    .send:hover {
-        background-color:rgb(192, 192, 192);
+a:hover {
+    color:var(--dark-1);
+}
+.contact {
+    vertical-align: middle;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+}
+.email, .name, .message, .send {
+    margin: -5px auto 25px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 7px;
 
+}
+input:placeholder-shown, textarea:placeholder-shown, .send {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+form {
+    font-size: 16px;
+}
+.send {
+    background-color:var(--dark-2);
+    margin-top: 30px;
+    width: 100%;
+}
+.send:hover {
+    background-color:var(--dark-3);
+}
+@media screen and (min-width:600px) and (max-width:600px){
+    .top-menu {
+        font-size: 15px;
     }
+    p, footer, form, .email, .name, .message, .send  {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:768px){
+    .top-menu {
+        font-size: 15px;
+    }
+    p, footer, form, .email, .name, .message, .send {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:992px){
+    .top-menu {
+        font-size: 15px;
+    }
+    p, footer, form, .email, .name, .message, .send {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
 }
