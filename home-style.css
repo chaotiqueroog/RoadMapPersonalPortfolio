@@ -208,8 +208,7 @@
         text-align: center;
         margin: 30px auto 15px auto;
     }
-
-
+    
     .rev {
     margin: 2px;
         flex: 1 100%;
@@ -229,18 +228,32 @@
     a:hover {
         color:var(--dark-1);
     }
-    @media screen and (min-width:992px) {
-        .education, .projects, .work {
-            flex:2;
-        }
+
+    @media only screen and (max-device-width: 430px){
         .top-menu {
             font-size: 15px;
         }
         p, li, footer {
             font-size: 14px
         }
+        body {
+            background-color: blue;
+        }
     }
-    @media screen and (min-width:768px) {
+
+    @media only screen and (min-width: 430px){
+        .top-menu {
+            font-size: 15px;
+        }
+        p, li, footer {
+            font-size: 14px
+        }
+        body {
+            background-color: rgb(200, 255, 0);
+        }
+    }
+
+    @media only screen and (min-width: 768px){
         .projects, .work {
             flex:2;
         }
@@ -250,50 +263,29 @@
         p, li, footer {
             font-size: 14px
         }
-    }
-    @media screen and (max-width:600px) and (min-width:600px) {
-        .education, .projects, .work {
-            flex: 3
+        body {
+            background-color: aqua;
         }
-        .top-menu {
-            font-size: 15px;
-        }
-        p, li, footer {
-            font-size: 14px
-        }
-        
-    }
-    @media screen and (max-width:600px) and (min-width:600px) {
-        .rev {
-            flex:2;
-        }
-        .top-menu {
-            font-size: 15px;
-        }
-        p, li, footer {
-            font-size: 14px
-        }           
-    }
-    @media screen and (min-width:768px) {
         .rev1, .rev2 {
             flex:2;
         }
+
+    }
+    @media only screen and (min-width:992px) {
+        .education, .projects, .work {
+            flex: 2;
+        }
         .top-menu {
             font-size: 15px;
         }
         p, li, footer {
             font-size: 14px
         }
-    }
-    @media screen and (min-width:992px) {
+        body {
+            background-color: rgb(80, 2, 2);
+        }
         .rev {
             flex:3
-        }
-        .top-menu {
-            font-size: 15px;
-        }
-        p, li, footer {
-            font-size: 14px
         }
     }
     .work-divider {

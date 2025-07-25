@@ -45,7 +45,21 @@ a:hover {
     text-align: center;
     align-items: center;
 }
-@media screen and (min-width:600px) and (max-width:600px){
+@media screen and (max-device-width:430px) {
+    img {
+        width: 80%;
+    }
+    .top-menu {
+        font-size: 15px;
+    }
+    p, footer, li {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:430px) {
     img {
         width: 80%;
     }
